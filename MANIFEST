@@ -3,5 +3,5 @@ README
 README.md
 setup.cfg
 setup.py
-IntegerInWordsLister\IntegerInWordsLister.py
+IntegerInWordsLister\InWordsLister.py
 IntegerInWordsLister\__init__.py

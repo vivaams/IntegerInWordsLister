@@ -1,7 +1,14 @@
+'''
+Integer In Words Lister
+This module returns numbers to a list of words
+
+Author: Amin Morakabi Sabet
+'''
+
 import humanize
 
 
-class IntegerInWordsLister:
+class NumericLister:
     def __init__(self, number):
         if type(number) != int or number < 0:
             raise TypeError("Only positive integers are allowed")

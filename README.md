@@ -10,12 +10,14 @@
 
 ## Usage
 ```python
-inwords_lister = IntegerInWordsLister(222)
+from IntegerInWordsLister.InWordsLister import NumericLister
+
+inwords_lister = NumericLister(222)
 print(inwords_lister.calculate())
 
 numbers = [120000000000, 9000870000, 245085002120, 23]
 for num in numbers:
-    inwords_lister = IntegerInWordsLister(num)
+    inwords_lister = NumericLister(num)
     print(inwords_lister.calculate())
 ```
 ## Output

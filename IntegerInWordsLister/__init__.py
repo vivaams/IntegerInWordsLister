@@ -1,1 +1,1 @@
-from IntegerInWordsLister import IntegerInWordsLister
+from IntegerInWordsLister.InWordsLister import NumericLister

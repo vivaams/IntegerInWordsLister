@@ -6,7 +6,7 @@ with open("README", "r", encoding="utf-8") as fh:
 setup(
     name='IntegerInWordsLister',
     packages=['IntegerInWordsLister'],
-    version='1.1.0',
+    version='1.1.1',
     license='MIT',
     description='This module returns numbers to a list of words',
     long_description=long_description,
